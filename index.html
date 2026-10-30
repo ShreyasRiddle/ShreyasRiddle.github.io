@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shreyas Kumar is an Electrical and Computer Engineering student at UT Austin. Personal site with projects, experience, and contact links.">
+  <title>Shreyas Kumar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112..125,500..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+  <!-- Hero: drawn as a circuit board (id selector) -->
+  <div id="hero">
+    <svg class="traces" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <path d="M0 70 H380 L420 110 H760 L800 70 H1200" />
+      <path d="M0 350 H260 L300 310 H640 L690 360 H1200" />
+      <path d="M1090 0 V140 L1130 180 V420" />
+      <path d="M1180 0 V230 L1150 260 V420" />
+      <path d="M560 420 V380 L600 340 H700" />
+      <circle cx="380" cy="70" r="7" />
+      <circle cx="800" cy="70" r="7" />
+      <circle cx="300" cy="310" r="7" />
+      <circle cx="1130" cy="180" r="7" />
+      <circle cx="1150" cy="260" r="7" />
+      <circle cx="700" cy="340" r="7" />
+    </svg>
+
+    <div class="board">
+      <img src="images/avatar.svg" alt="Illustration of a microchip labeled SK" class="chip">
+      <div>
+        <h1>Shreyas Kumar</h1>
+        <p class="tagline">Electrical and Computer Engineering at UT Austin</p>
+        <nav aria-label="Contact">
+          <a href="https://github.com/ShreyasRiddle">GitHub</a>
+          <a href="https://www.ece.utexas.edu/">UT ECE</a>
+          <a href="mailto:shreyaskumar@utexas.edu">Email me</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="section">
+      <h2>About</h2>
+      <div class="body">
+        <p>
+          I'm an ECE student at UT Austin. I like software that sits close to real
+          systems: data from markets, signals from cameras, hardware that has to be
+          tracked and shared. Most of what I learn comes from building something,
+          breaking it, and figuring out why.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="body">
+        <dl class="projects">
+          <dt>Cross-Venue Price Discovery</dt>
+          <dd>Compares prices for the same asset across trading venues to study how price information moves between markets.</dd>
+          <dt>ASL Recognition</dt>
+          <dd>Recognizes American Sign Language hand signs from a live camera feed.</dd>
+          <dt>Hardware checkout app</dt>
+          <dd>The EE461L team project: a React and Python web app for checking hardware in and out of shared project pools.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Tools</h2>
+      <div class="body">
+        <p>
+          I write mostly in Python, Java, and C/C++, and build web front ends with
+          JavaScript, React, HTML, and CSS. Everything lives in Git.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Built by hand in HTML and CSS, served by <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+  </footer>
+
+</body>
+</html>

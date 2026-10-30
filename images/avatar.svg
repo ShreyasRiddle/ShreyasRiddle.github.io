@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" width="150" height="150">
+  <g fill="#c4844a">
+    <rect x="0" y="38" width="22" height="8" rx="2"/>
+    <rect x="0" y="58" width="22" height="8" rx="2"/>
+    <rect x="0" y="78" width="22" height="8" rx="2"/>
+    <rect x="0" y="98" width="22" height="8" rx="2"/>
+    <rect x="128" y="38" width="22" height="8" rx="2"/>
+    <rect x="128" y="58" width="22" height="8" rx="2"/>
+    <rect x="128" y="78" width="22" height="8" rx="2"/>
+    <rect x="128" y="98" width="22" height="8" rx="2"/>
+    <rect x="38" y="0" width="8" height="22" rx="2"/>
+    <rect x="58" y="0" width="8" height="22" rx="2"/>
+    <rect x="78" y="0" width="8" height="22" rx="2"/>
+    <rect x="98" y="0" width="8" height="22" rx="2"/>
+    <rect x="38" y="128" width="8" height="22" rx="2"/>
+    <rect x="58" y="128" width="8" height="22" rx="2"/>
+    <rect x="78" y="128" width="8" height="22" rx="2"/>
+    <rect x="98" y="128" width="8" height="22" rx="2"/>
+  </g>
+  <rect x="18" y="18" width="114" height="114" rx="6" fill="#1b1f1d"/>
+  <rect x="24" y="24" width="102" height="102" rx="3" fill="none" stroke="#3a403d" stroke-width="2"/>
+  <circle cx="38" cy="38" r="5" fill="#3a403d"/>
+  <text x="75" y="88" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="bold" fill="#eef2ea" text-anchor="middle" letter-spacing="2">SK</text>
+</svg>
